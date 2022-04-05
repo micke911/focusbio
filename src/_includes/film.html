@@ -1,0 +1,11 @@
+---
+layout: base
+---
+
+<div class="container max-w-3xl mt-6 px-6">
+    <h1 class="">{{title}}</h1>
+    <p class="text-center text-base leading-6 font-medium text-gray-500 mb-5">
+        <time> Visas {{ date | readableDate }} </time>
+    </p>
+    {{ content | safe }}
+</div>

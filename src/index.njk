@@ -1,0 +1,19 @@
+---
+layout: base
+path: home
+---
+
+<div class="container mx-auto lg:h-screen flex flex-col justify-center items-center">
+  <h1>
+    Välkommen till
+    <strong class="bg-clip-text text-transparent bg-gradient-to-r from-red-900 to-red-500 uppercase tracking-wide">
+      {{ settings.sitename }}
+    </strong>
+  </h1>
+
+  <blockquote class="prose md:prose-xl">
+    <p>En riktig biograf i Östervåla</p>
+  </blockquote>
+
+  {% include "partials/content.html" %}
+</div>
