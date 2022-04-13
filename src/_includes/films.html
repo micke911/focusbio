@@ -4,6 +4,7 @@ layout: base
 
 <section class="mt-15 container max-w-3xl mt-6 px-6">
     <h1>{{ title }}</h1>
+    <p>{{ content | safe }}</p>
     {% for film in collections.film %}
     <article class="my-8">
         <a href="{{ film.url | url }}" class="no-underline text-3xl">

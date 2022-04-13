@@ -2,4 +2,4 @@
 layout: films
 title: Kommande filmer
 ---
-# my films
+Här följer en lista på kommande filmvisningar.
