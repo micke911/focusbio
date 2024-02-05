@@ -1,7 +1,7 @@
 <div class="w-full lg:max-w-4xl grid grid-cols-1 lg:grid-cols-3 gap-4 my-8 px-4 lg:mx-0 prose">
 
     {% for mainpage in collections.main %}
-        <a href={{ mainpage.url }} class="p-5 border rounded border-gray-200 hover:border-purple-400">
+        <a href={{ mainpage.url }} class="p-5 border rounded border-gray-200 hover:border-purple-400 no-underline">
             <h3>{{ mainpage.data.title }}</h3>
             <p>{{ mainpage.templateContent | safe }}</p>
             <p class="text-xs">{{ mainpage.url }}</p>
